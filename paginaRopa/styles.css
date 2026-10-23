@@ -1,0 +1,154 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.descuento {
+    background-color: #111;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.descuento p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.descuento a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+
+/*MENU DE NAVEGACION*/
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    color: black;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #000;
+
+}
+
+header nav {
+    padding-left: 50px;
+}
+
+header nav ul {
+    display: flex;                
+    gap: 36px;
+    list-style: none;             
+}
+
+.acciones {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    margin-left: auto;            
+}
+
+header a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/*PRODUCTOS*/
+
+h2 {
+    margin: 24px 24px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 24px 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.producto {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.producto img {
+    margin-bottom: 12px;
+}
+
+.producto h3 {
+    margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.producto p {
+    margin: 0 0 12px;
+    font-size: 14px;
+    color: #333;
+}
+
+.producto button {           
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/*FOOTER*/
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 0 16px;
+    padding: 0;
+    list-style: none;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
